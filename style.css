@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+body {
+    background-color: #0D192C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 350px;
+    padding: 24px;
+    background-color: #15263F;
+    border-radius: 15px;
+}
+
+/* pirveli divi */
+
+.div-1 h1 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    line-height: 27.72px;
+    padding: 24px 0px 16px 0px;
+}
+
+.div-1 p {
+    color: #8BACD9;
+    font-size: 18px;
+    font-family: "Outfit";
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/* pirveli divis hoverebi */
+
+
+.div-1 h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+
+
+/* meore divi */
+
+.div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px 24px 0px;   
+}
+
+/* etheriumi */
+
+#etherium {
+    display: flex;
+    align-items: center;
+}
+
+#etherium img {
+    margin-right: 6.49px;
+    width: 11px;
+}
+
+#etherium h2 {
+    color: #00FFF8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    font-family: "outfit";
+    font-style: bold;
+}
+
+/* clock */
+
+#clock {
+    display: flex;
+    align-items: center;
+}
+
+#clock img {
+    width: 13.33px;
+    margin-right: 9.03px;
+}
+
+#clock h2 {
+    color: #8BACD9;
+    font-size: 16px;
+    font-family: "outfit";
+    font-weight: 400;
+    line-height: 20.16px;
+}
+
+.nft{
+    position: relative;
+    
+}
+
+.nft img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #00FFF8;
+    
+}
+
+
+
+/* mesame divi */
+
+.div-3 hr {
+    color: #2E405A;
+    width: 100%;
+    height: 1px;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 16px 0px 16px 0px;
+}
+
+#author img {
+    width: 33px;
+    border: solid 1px white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+#author span {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "outfit";
+    font-weight: 20.16px;
+}
+
+#author p {
+    color: #8BACD9;
+    font-size: 16px;
+    font-family: "outfit";
+    font-weight: 400;
+    line-height: 20.16px;
+    margin-right: 5px;
+}
+
+#author span:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+
+.nft {
+    position: relative;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e8eaed00;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    opacity: 0;
+    
+   
+}
+
+.overlay:hover {
+    background-color: hsla(178, 83%, 39%, 0.528);
+    opacity: 1;
+}
+
+
+
+
+
